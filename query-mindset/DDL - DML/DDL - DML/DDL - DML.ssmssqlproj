@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="DDL - DML">
+  <Items>
+    <LogicalFolder Name="Conexiones" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="TURING\MSSQLSERVER2019:TURING\Devcom">
+          <Created>2025-11-12T20:05:50.3784839-05:00</Created>
+          <Type>SQL</Type>
+          <Server>TURING\MSSQLSERVER2019</Server>
+          <UserName />
+          <Authentication>Autenticación de Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <EncryptionOption>False</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>SQL Server Management Studio</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Consultas" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01_MD.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_MD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_SP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_SP.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_FX.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03_FX.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DT_1_Clientes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DT_1_Clientes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DT_2_Producto_TipoComprobante.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DT_2_Producto_TipoComprobante.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DT_3_Comprobante.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DT_3_Comprobante.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DT_DML1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DT_DML1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DT_DML2.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_DT_DML2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_VW.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_VW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Consultas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Consultas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Estructuras de control.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Estructuras de control.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ScriptGeneros.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ScriptGeneros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ScriptNombresMujeres.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ScriptNombresMujeres.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ScriptNombresVarones.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ScriptNombresVarones.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TiposDatoFechas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TiposDatoFechas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TiposDatoNumeros.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TiposDatoNumeros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TiposDatoTexto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TURING\MSSQLSERVER2019:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TURING\MSSQLSERVER2019</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>TiposDatoTexto.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Varios" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

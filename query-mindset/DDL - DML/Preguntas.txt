@@ -1,0 +1,99 @@
+¿Cuántas personas están registradas en la tabla Personas?
+
+¿Cuáles son los nombres más recientes registrados en la tabla NombresDisponibles?
+
+¿Cuáles son los géneros disponibles en la tabla Generos?
+
+¿Cuántas personas tienen el mismo tipo de documento en la tabla Personas?
+
+¿Cuáles son los nombres más recientes registrados en la tabla NombresDisponibles?
+
+¿Cuántas personas naturales tienen el mismo género en la tabla PersonaNatural?
+
+¿Qué tipos de documentos están activos en la tabla TipoDocumento?
+
+¿Cuáles son las personas registradas con su número de documento en la tabla Personas?
+
+¿Cuántos apellidos distintos están registrados en la tabla ApellidosDisponibles por cada estado?
+
+¿Cuál es la cantidad total de personas registradas por cada género en la tabla PersonaNatural?
+
+¿Cuántos apellidos únicos están registrados en la tabla ApellidosDisponibles?
+
+¿Qué géneros tienen más registros en la tabla PersonaNatural?
+
+¿Cuántas personas tienen el mismo nombre en la tabla NombresDisponibles?
+
+¿Cuál es la fecha de registro más reciente de las personas registradas en la tabla Personas?
+
+¿Cuántas personas naturales tienen más de un nombre?
+
+¿Cuántas personas en la tabla Personas tienen el estado activo?
+
+¿Cuántos tipos de documento están registrados con estado activo?
+
+¿Cuántos registros existen por cada género en la tabla Generos?
+
+¿Cuántas personas tienen un apellido materno en la tabla PersonaNatural?
+
+¿Cuáles son los primeros 5 registros de la tabla Personas según la fecha de registro?
+
+¿Cuántas personas en la tabla Personas tienen el mismo apellido?
+
+¿Cuál es el apellido con más registros en la tabla ApellidosDisponibles?
+
+¿Cuántas personas tienen el mismo tipo de documento en la tabla Personas?
+
+¿Cuántos géneros tienen registros activos en la tabla Generos?
+
+¿Qué nombre tiene más registros en la tabla NombresDisponibles?
+
+¿Cuáles son los primeros 10 apellidos registrados en la tabla ApellidosDisponibles?
+
+¿Cuántas personas naturales nacieron después de 1990?
+
+¿Qué tipo de documento tiene más registros en la tabla TipoDocumento?
+
+¿Cuántas personas en la tabla Personas están registradas con documentos distintos?
+
+¿Cuál es el primer nombre más frecuente en la tabla NombresDisponibles?
+
+¿Cuántas personas tienen el estado activo en la tabla PersonaNatural?
+
+¿Cuáles son los 10 primeros registros de la tabla PersonaNatural según la fecha de registro?
+
+¿Cuántos apellidos tienen registros activos en la tabla ApellidosDisponibles?
+
+¿Cuántas personas naturales tienen más de un apellido en la tabla PersonaNatural?
+
+¿Cuántas personas están registradas en la tabla PersonaNatural con el mismo apellido paterno?
+
+¿Cuántas personas naturales fueron registradas antes de 2000?
+
+¿Cuántos tipos de documentos están registrados con el estado inactivo en la tabla TipoDocumento?
+
+¿Cuántas personas tienen exactamente el mismo nombre y apellido en la tabla PersonaNatural?
+
+¿Cuántos registros activos hay en la tabla Generos?
+
+¿Cuántas personas están registradas en la tabla Personas sin estado activo?
+
+¿Qué apellidos fueron registrados más recientemente en la tabla ApellidosDisponibles?
+
+¿Cuál es el género más frecuente en la tabla PersonaNatural?
+
+¿Cuántas personas naturales nacieron antes del 1 de enero de 2000?
+
+¿Cuántos tipos de documento tienen el estado activo y el estado inactivo?
+
+¿Qué tipo de documento tiene la mayor cantidad de registros activos?
+
+¿Cuántas personas naturales tienen el apellido paterno repetido en la tabla PersonaNatural?
+
+¿Cuántos registros existen en la tabla PersonaNatural por cada fecha de nacimiento?
+
+¿Cuántas personas en la tabla PersonaNatural tienen nombres similares?
+
+¿Qué nombres en la tabla NombresDisponibles tienen registros activos?
+
+¿Cuántos apellidos por cada estado (activo e inactivo) están registrados en la tabla ApellidosDisponibles?

@@ -1,0 +1,23 @@
+USE Facturacion
+GO
+
+DECLARE @numero1 TINYINT = 255 -- 2*8 -1
+DECLARE @numero2 SMALLINT = 32767 -- 2*15 - 1
+DECLARE @numero3 INT = 2 147 483 647 -- 2*31 - 1
+DECLARE @numero4 BIGINT = 9223372036854775807 -- 2*63 - 1
+
+SELECT 
+	@numero1, @numero2, @numero3, @numero4
+
+DECLARE @numero5 DECIMAL(14,2) = 999999999999.99
+DECLARE @numero6 NUMERIC(14,2) = 999999999999.99
+DECLARE @nTipoCambio DECIMAL(14,4) = 3.3950
+
+SELECT 
+	@numero5, @numero6, @nTipoCambio
+
+DECLARE @numero7 FLOAT = 10.00/3.00
+DECLARE @numero8 FLOAT = 100000000.00*100000000000000000.00
+
+SELECT 
+	@numero7, @numero8
