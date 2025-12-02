@@ -1,0 +1,257 @@
+{
+    "workbench.iconTheme": "symbols",
+    "workbench.colorTheme": "freeCodeCamp Dark Theme",
+    "editor.fontLigatures": true,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true,
+    "editor.minimap.autohide": "mouseover",
+    "editor.fontFamily": "'Cascadia Code NF Light', Consolas, monospace",
+    "editor.fontVariations": false,
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+    "window.zoomLevel": 0.5,
+    "explorer.compactFolders": false,
+    "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#FFB86C",
+    "editorIndentGuide.activeBackground2": "#50FA7B",
+    "editorIndentGuide.activeBackground3": "#BD93F9",
+    "editorIndentGuide.activeBackground4": "#FF79C6"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.codeLens": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.showOnAllFunctions": false,
+    "javascript.referencesCodeLens.showOnAllFunctions": false,
+    "references.preferredLocation": "peek",
+    "github.copilot.nextEditSuggestions.enabled": true,
+        "terminal.integrated.profiles.windows": {
+      "Git Bash": {
+        "path": "C:\\Program Files\\Git\\bin\\bash.exe", // Ruta típica en Windows
+        "args": []
+      }
+    },
+    "codesnap.containerPadding": "0.3em",
+    "codesnap.roundedCorners": false,
+    "codesnap.showWindowControls": false,
+    "print.folder.fileNames": true,
+    "print.folder.include": [],
+    "print.folder.exclude": [
+        "{bin,obj,out}",
+        "node_modules",
+        "data",
+        "**/*.{bin,exe,dll,hex,pdb,pdf,pfx,png,jpg,gif,bmp,suo,design}"
+    ],
+    "print.folder.maxLines": 1200,
+    "print.folder.maxFiles": 30,
+    "print.folder.includeFileList": false,
+    "accessibility.signalOptions.volume": 10,
+    "git.openRepositoryInParentFolders": "always",
+    "chat.agent.maxRequests": 40,
+    "gitlens.blame.fontSize": 10,
+    "gitlens.currentLine.fontSize": 10,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+
+
+
+
+
+
+    // todo-tree settings: Start-->
+    
+        "todo-tree.general.tags": [
+          "TODO",
+          "FIXME",
+          "BUG",
+          "NOTE",
+          "COMMENT",
+          "HACK",
+          "REVIEW",
+          "[ ]",
+          "[x]",
+          "WIP",
+          "DONE",
+          "TEST"
+        ],
+        "todo-tree.highlights.defaultHighlight": {
+          "type": "text-and-comment",
+          "foreground": "#000000",
+          "background": "#FFFFFF",
+          "opacity": 0.5,
+          "icon": "alert",
+          "iconColour": "#0000FF",
+          "gutterIcon": true
+        },
+        "todo-tree.highlights.customHighlight": {
+          "TODO": {
+            "icon": "check",
+            "foreground": "#000000",
+            "background": "#FFFF00", // Amarillo
+            "iconColour": "#FFFF00",
+            "gutterIcon": true
+          },
+          "FIXME": {
+            "icon": "tools",
+            "foreground": "#FFFFFF",
+            "background": "#FF4500", // Naranja rojizo
+            "iconColour": "#FF4500",
+            "gutterIcon": true
+          },
+          "BUG": {
+            "icon": "bug",
+            "foreground": "#FFFFFF",
+            "background": "#DC143C", // Rojo
+            "iconColour": "#DC143C",
+            "gutterIcon": true
+          },
+          "NOTE": {
+            "icon": "note",
+            "foreground": "#FFFFFF",
+            "background": "#4682B4", // Azul acero
+            "iconColour": "#4682B4",
+            "gutterIcon": true
+          },
+          "COMMENT": {
+            "icon": "comment",
+            "foreground": "#FFFFFF",
+            "background": "#808080", // Gris
+            "iconColour": "#808080",
+            "gutterIcon": true
+          },
+          "HACK": {
+            "icon": "alert",
+            "foreground": "#000000",
+            "background": "#FFA500", // Naranja
+            "iconColour": "#FFA500",
+            "gutterIcon": true
+          },
+          "REVIEW": {
+            "icon": "eye",
+            "foreground": "#000000",
+            "background": "#00FFFF", // Cian
+            "iconColour": "#00FFFF",
+            "gutterIcon": true
+          },
+          "[ ]": {
+            "icon": "check",
+            "foreground": "#000000",
+            "background": "#FFFFFF", // Blanco para tareas pendientes
+            "iconColour": "#FFFF00",
+            "gutterIcon": true
+          },
+          "[x]": {
+            "icon": "check",
+            "foreground": "#FFFFFF",
+            "background": "#008000", // Verde para tareas completadas
+            "iconColour": "#008000",
+            "gutterIcon": true
+          },
+          "WIP": {
+            "icon": "sync",
+            "foreground": "#FFFFFF",
+            "background": "#FF8C00", // Naranja oscuro
+            "iconColour": "#FF8C00",
+            "gutterIcon": true
+          },
+          "DONE": {
+            "icon": "verified",
+            "foreground": "#FFFFFF",
+            "background": "#228B22", // Verde bosque
+            "iconColour": "#228B22",
+            "gutterIcon": true
+          },
+          "TEST": {
+            "icon": "beaker",
+            "foreground": "#FFFFFF",
+            "background": "#9932CC", // Morado oscuro
+            "iconColour": "#9932CC",
+            "gutterIcon": true
+          }
+        },
+        "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+        "todo-tree.regex.regexCaseSensitive": false,
+        "todo-tree.tree.autoRefresh": true,
+        "todo-tree.filtering.includeGlobs": [
+          "**/*.js",
+          "**/*.ts",
+          "**/*.html",
+          "**/*.css",
+          "**/*.md",
+          "**/*.py",
+          "**/*.java"
+        ],
+        "todo-tree.filtering.excludeGlobs": [
+          "**/node_modules/**",
+          "**/dist/**",
+          "**/build/**"
+        ],
+        "highlight.regexes": {
+          "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+              {
+                "overviewRulerColor": "#ffcc00",
+                "backgroundColor": "#ffcc00",
+                "color": "#1f1f1f",
+                "fontWeight": "bold"
+              },
+              {
+                "backgroundColor": "#ffcc00",
+                "color": "#1f1f1f"
+              }
+            ]
+          },
+          "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+              {
+                "overviewRulerColor": "#cc0000",
+                "backgroundColor": "#cc0000",
+                "color": "#1f1f1f",
+                "fontWeight": "bold"
+              },
+              {
+                "backgroundColor": "#cc0000",
+                "color": "#1f1f1f"
+              }
+            ]
+          },
+          "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+              {
+                "overviewRulerColor": "#00ccff",
+                "backgroundColor": "#00ccff",
+                "color": "#1f1f1f",
+                "fontWeight": "bold"
+              },
+              {
+                "backgroundColor": "#00ccff",
+                "color": "#1f1f1f"
+              }
+            ]
+          },
+          "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+              {
+                "overviewRulerColor": "#cc00cc",
+                "backgroundColor": "#cc00cc",
+                "color": "#1f1f1f",
+                "fontWeight": "bold"
+              },
+              {
+                "backgroundColor": "#cc00cc",
+                "color": "#1f1f1f"
+              }
+            ]
+          }
+        },
+
+    // todo-tree settings: -->End.
+
+}
