@@ -7,6 +7,7 @@ void ejercicio_s02();
 void ejercicio_s03();
 void ejercicio_s04();
 void ejercicio_s05();
+void ejercicio_s06();
 
 int main() {
     int opcion;
@@ -18,6 +19,7 @@ int main() {
         std::cout << "3. Ejercicios de Bucle For\n";
         std::cout << "4. Ejercicios de Bucle Do-While\n";
         std::cout << "5. Ejercicios de Case\n";
+        std::cout << "6. Programa libre: Primos en un rango\n";
         std::cout << "0. Salir\n";
         std::cout << "Seleccione una opcion: ";
         std::cin >> opcion;
@@ -37,6 +39,9 @@ int main() {
                 break;
             case 5:
                 ejercicio_s05();
+                break;
+            case 6:
+                ejercicio_s06();
                 break;
             case 0:
                 std::cout << "Saliendo del programa...\n";
@@ -241,6 +246,27 @@ void ejercicio_s05() {
                 break;
             case 6:
                 system("g++ \"c:/Users/Zen/Downloads/code-katas-main/upecen/s05_case/06_operaciones-binarias.cpp\" -o \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/s05_06.exe\" && \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/s05_06.exe\"");
+                break;
+            case 0:
+                std::cout << "Regresando al menu principal...\n";
+                break;
+            default:
+                std::cout << "Opcion no valida. Intente de nuevo.\n";
+        }
+    } while (opcion != 0);
+}
+
+void ejercicio_s06() {
+    int opcion;
+    do {
+        std::cout << "\n===== Programa libre (s06_final) =====\n";
+        std::cout << "1. Primos en un rango\n";
+        std::cout << "0. Regresar al menu principal\n";
+        std::cout << "Seleccione una opcion: ";
+        std::cin >> opcion;
+        switch (opcion) {
+            case 1:
+                system("g++ \"c:/Users/Zen/Downloads/code-katas-main/upecen/s06_final/e01_primos_en_rango.cpp\" -o \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e01_primos_en_rango.exe\" && \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e01_primos_en_rango.exe\"");
                 break;
             case 0:
                 std::cout << "Regresando al menu principal...\n";
