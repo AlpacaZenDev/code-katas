@@ -19,7 +19,7 @@ int main() {
         std::cout << "3. Ejercicios de Bucle For\n";
         std::cout << "4. Ejercicios de Bucle Do-While\n";
         std::cout << "5. Ejercicios de Case\n";
-        std::cout << "6. Programa libre: Primos en un rango\n";
+        std::cout << "6. Programas libres\n";
         std::cout << "0. Salir\n";
         std::cout << "Seleccione una opcion: ";
         std::cin >> opcion;
@@ -261,12 +261,16 @@ void ejercicio_s06() {
     do {
         std::cout << "\n===== Programa libre (s06_final) =====\n";
         std::cout << "1. Primos en un rango\n";
+        std::cout << "2. Juego: Adivina el numero\n";
         std::cout << "0. Regresar al menu principal\n";
         std::cout << "Seleccione una opcion: ";
         std::cin >> opcion;
         switch (opcion) {
             case 1:
                 system("g++ \"c:/Users/Zen/Downloads/code-katas-main/upecen/s06_final/e01_primos_en_rango.cpp\" -o \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e01_primos_en_rango.exe\" && \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e01_primos_en_rango.exe\"");
+                break;
+            case 2:
+                system("g++ \"c:/Users/Zen/Downloads/code-katas-main/upecen/s06_final/e02_adivina_el_numero.cpp\" -o \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e02_adivina_el_numero.exe\" && \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e02_adivina_el_numero.exe\"");
                 break;
             case 0:
                 std::cout << "Regresando al menu principal...\n";
