@@ -68,7 +68,7 @@ void ejercicio_s01() {
         std::cin >> opcion;
         switch (opcion) {
             case 1:
-                system("g++ \"c:/Users/Zen/Downloads/code-katas-main/upecen/s01_algoritmia/e01_pseint_suma.cpp\" -o \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e01_pseint_suma.exe\" && \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e01_pseint_suma.exe\"");
+                system("g++ \"s01_algoritmia/e01_pseint_suma.cpp\" -o \"output/e01_pseint_suma.exe\" && \"output/e01_pseint_suma.exe\"");
                 break;
             case 2:
                 system("g++ \"c:/Users/Zen/Downloads/code-katas-main/upecen/s01_algoritmia/e02_area_triangulo.cpp\" -o \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e02_area_triangulo.exe\" && \"c:/Users/Zen/Downloads/code-katas-main/upecen/output/e02_area_triangulo.exe\"");
