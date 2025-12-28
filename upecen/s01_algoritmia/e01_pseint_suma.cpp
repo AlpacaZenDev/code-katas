@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main() {
+void pseint_suma() {
     cout << "Algoritmo SumaDosNumeros" << endl;
     cout << "    Definir a, b, suma Como Entero" << endl;
     cout << "    Escribir 'Ingrese el primer numero:'" << endl;
@@ -10,5 +10,4 @@ int main() {
     cout << "    suma <- a + b" << endl;
     cout << "    Escribir 'La suma es: ', suma" << endl;
     cout << "FinAlgoritmo" << endl;
-    return 0;
 }
