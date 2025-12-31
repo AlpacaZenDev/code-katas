@@ -9,6 +9,10 @@ partial class Program
 {
     static void AreaTriangulo()
     {
+        var b = 12;
+        var h = 20;
+        var area = b * h;
+        System.Console.WriteLine($"Area: {area}");
     }   
 }
 
