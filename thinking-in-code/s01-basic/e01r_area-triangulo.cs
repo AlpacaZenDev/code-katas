@@ -11,12 +11,13 @@ Solución altervativa con separación de responsabilidades.
 
 partial class Program
 {
-    static void AreaTriangulo()
+    static void AreaTrianguloRev()
     {
+        System.Console.WriteLine("\nCalcula el Área del Tríangulo (REV)");
         double baseTriangulo = ValidarDouble("Base del triángulo? ");
         double alturaTriangulo = ValidarDouble("Altura del triángulo? ");
         double area = CalcularAreaTriangulo(baseTriangulo, alturaTriangulo);
-        System.Console.WriteLine($"Area del triángulo: {area}");
+        System.Console.WriteLine($"» Area del triángulo: {area}u²");
     }   
 
     static double ValidarDouble(string mensaje)
@@ -36,7 +37,7 @@ partial class Program
 
     static double CalcularAreaTriangulo(double b, double h)
     {
-        return (b * h) * 0.5;
+        return Math.Abs((b * h) * 0.5);
     }
 }
 
@@ -44,8 +45,9 @@ partial class Program
 
 /*
 Características clave:
-- Usa Console.Write para que el usuario ingrese los valores en la misma línea que el mensaje.
-- Valida correctamente ambos inputs con double.TryParse.
-- Detiene la ejecución con return si la entrada es inválida, evitando cálculos incorrectos.
-- Muestra el resultado solo si ambos valores son válidos.
+- Separación clara de responsabilidades: entrada, validación y cálculo están en métodos distintos.
+- Interfaz de usuario mejorada: mensajes claros y uso de símbolos para una presentación profesional.
+- Validación robusta: asegura que solo se acepten valores numéricos válidos.
+- Manejo de valores negativos: el área siempre se muestra como un valor positivo.
+- Código reutilizable y fácil de mantener.
 */
