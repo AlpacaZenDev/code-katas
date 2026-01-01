@@ -27,3 +27,10 @@ partial class Program
     }   
 }
 
+/*
+Características clave:
+- Usa Console.Write para que el usuario ingrese los valores en la misma línea que el mensaje.
+- Valida correctamente ambos inputs con double.TryParse.
+- Detiene la ejecución con return si la entrada es inválida, evitando cálculos incorrectos.
+- Muestra el resultado solo si ambos valores son válidos.
+*/
