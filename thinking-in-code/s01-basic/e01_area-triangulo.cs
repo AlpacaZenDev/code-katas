@@ -9,12 +9,21 @@ partial class Program
 {
     static void AreaTriangulo()
     {
-        System.Console.WriteLine("introduce la base del rectángulo: ");
+        System.Console.Write("Base del triángulo? ");
         string baseInput = System.Console.ReadLine();
-        double baseRectangulo = double.Parse(baseInput);
-        double alturaRectangulo = 20;
-        double areaRectangulo = baseRectangulo * alturaRectangulo;
-        System.Console.WriteLine($"Area: {areaRectangulo}");
+        if (!double.TryParse(baseInput, out double baseTriangulo))
+        {
+            System.Console.WriteLine("Ingrese un valor correcto!");
+            return;
+        }
+        System.Console.Write("Altura del triángulo? ");
+        string alturaInput = System.Console.ReadLine();
+        if (!double.TryParse(alturaInput, out double alturaTriangulo))
+        {
+            System.Console.WriteLine("Ingrese un valor correcto!");
+            return;
+        }
+        System.Console.WriteLine($"Area del triángulo: {(baseTriangulo * alturaTriangulo) * 0.5}");
     }   
 }
 
