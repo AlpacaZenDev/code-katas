@@ -10,13 +10,33 @@ partial class Program
     static void OrdenInverso()
     {
         System.Console.Write("dato A? ");
-        string? datoA = System.Console.ReadLine();
+        string? inputA = System.Console.ReadLine();
+        if (!int.TryParse(inputA, out int datoA))
+        {
+            System.Console.WriteLine("Ingrese solo valores enteros!");
+            return;
+        }
         System.Console.Write("dato B? ");
-        string? datoB = System.Console.ReadLine();
+        string? inputB = System.Console.ReadLine();
+        if (!int.TryParse(inputB, out int datoB))
+        {
+            System.Console.WriteLine("Ingrese solo valores enteros!");
+            return;
+        }
         System.Console.Write("dato C? ");
-        string? datoC = System.Console.ReadLine();
+        string? inputC = System.Console.ReadLine();
+        if (!int.TryParse(inputC, out int datoC))
+        {
+            System.Console.WriteLine("Ingrese solo valores enteros!");
+            return;
+        }
         System.Console.Write("dato D? ");
-        string? datoD = System.Console.ReadLine();
+        string? inputD = System.Console.ReadLine();
+        if (!int.TryParse(inputD, out int datoD))
+        {
+            System.Console.WriteLine("Ingrese solo valores enteros!");
+            return;
+        }
         
         System.Console.WriteLine($"Orden inverso: {datoD} {datoC} {datoB} {datoA}");
     }
