@@ -10,14 +10,14 @@ partial class Program
     static void AreaTriangulo()
     {
         System.Console.Write("Base del triángulo? ");
-        string baseInput = System.Console.ReadLine();
+        string? baseInput = System.Console.ReadLine();
         if (!double.TryParse(baseInput, out double baseTriangulo))
         {
             System.Console.WriteLine("Ingrese un valor correcto!");
             return;
         }
         System.Console.Write("Altura del triángulo? ");
-        string alturaInput = System.Console.ReadLine();
+        string? alturaInput = System.Console.ReadLine();
         if (!double.TryParse(alturaInput, out double alturaTriangulo))
         {
             System.Console.WriteLine("Ingrese un valor correcto!");
@@ -34,3 +34,4 @@ Características clave:
 - Detiene la ejecución con return si la entrada es inválida, evitando cálculos incorrectos.
 - Muestra el resultado solo si ambos valores son válidos.
 */
+
