@@ -4,7 +4,6 @@ Construya un pseudocódigo, que dados los datos A, B, C y D que representan
 números enteros, escriba los mismos en orden inverso.
 */
 
-
 partial class Program
 {
     static void OrdenInverso()
@@ -41,4 +40,10 @@ partial class Program
         System.Console.WriteLine($"Orden inverso: {datoD} {datoC} {datoB} {datoA}");
     }
 }
+
+/*
+Características clave:
+- Valida correctamente ambos inputs con int.TryParse.
+- Detiene la ejecución con return si la entrada es inválida, evitando cálculos incorrectos.
+*/
 
