@@ -26,7 +26,7 @@ partial class Program
         while (true)
         {
             System.Console.Write(mensaje);
-            string input = System.Console.ReadLine();
+            string? input = System.Console.ReadLine();
             if (double.TryParse(input, out valor))
             {
                 return valor;
