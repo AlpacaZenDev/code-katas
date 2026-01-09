@@ -5,6 +5,8 @@ partial class Program {
     {
         // AreaTriangulo();
         // AreaTrianguloRev();
-        OrdenInverso();
+        // OrdenInverso();
+        OrdenInversoRev();
+
     }   
 }

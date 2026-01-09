@@ -16,6 +16,8 @@ partial class Program
         int inputA = ValidarInput("Dato A? ");
         int inputB = ValidarInput("Dato B? ");
         int inputC = ValidarInput("Dato C? ");
+        int inputD = ValidarInput("Dato D? ");
+        System.Console.WriteLine($"» Orden inverso: {inputD} {inputC} {inputB} {inputA}");
         
     }
 
@@ -24,7 +26,7 @@ partial class Program
         while (true) 
         {
             
-            System.Console.WriteLine(message);
+            System.Console.Write(message);
             string? input = System.Console.ReadLine();
             if (int.TryParse(input, out int value))
             {
@@ -34,6 +36,18 @@ partial class Program
         }
     }
 
-    
+
 
 }
+
+
+/*
+📝 CALIFICACIÓN:
+Tu rutina OrdenInversoRev está bien estructurada y valida correctamente que los datos sean enteros antes de continuar. La separación de responsabilidades es clara y el flujo es robusto.
+
+Edge cases relevantes:
+
+El usuario ingresa letras, símbolos o valores no numéricos (la rutina sigue pidiendo hasta que sean enteros).
+El usuario ingresa valores negativos, cero o números grandes (la rutina los acepta correctamente).
+El usuario presiona solo Enter (se interpreta como nulo y se vuelve a pedir).
+*/
