@@ -13,9 +13,27 @@ partial class Program
     static void OrdenInversoRev()
     {
         System.Console.WriteLine("\nOrden Inverso (REV)");
-        int inputA = ValidarInput("Date A? ");
-        int inputB = ValidarInput("Date A? ");
-        int inputC = ValidarInput("Date A? ");
+        int inputA = ValidarInput("Dato A? ");
+        int inputB = ValidarInput("Dato B? ");
+        int inputC = ValidarInput("Dato C? ");
         
     }
+
+    static int ValidarInput(string message)
+    {
+        while (true) 
+        {
+            
+            System.Console.WriteLine(message);
+            string? input = System.Console.ReadLine();
+            if (int.TryParse(input, out int value))
+            {
+                return value;
+            }
+            System.Console.WriteLine("Ingrese sólo números enteros!");
+        }
+    }
+
+    
+
 }
