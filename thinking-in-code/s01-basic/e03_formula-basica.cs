@@ -24,11 +24,10 @@ partial class Program
             return;
         }
 
+        double result = Math.Round(Math.Pow((numA + numB), 2)/3, 3);
 
+        System.Console.WriteLine($"El resultado es {result}");
 
     }
-
-
-
 
 }
