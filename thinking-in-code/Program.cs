@@ -7,7 +7,9 @@ partial class Program {
         // AreaTrianguloRev();
         // OrdenInverso();
         // OrdenInversoRev();
-        FormulaBasica();
+        // FormulaBasica();
+        FormulaBasicaRev();
+        
 
     }   
 }
