@@ -29,6 +29,13 @@ partial class Program
     {
         return Math.Round(Math.Pow((numA + numB), 2)/3, 3);
     }
-
-
 }
+
+
+/*
+
+📝 Puntos positivos:
+- Usa métodos separados para validación y cálculo, lo que mejora la legibilidad y reutilización.
+- Valida la entrada del usuario correctamente con TryParse y un bucle.
+- El cálculo utiliza Math.Round para redondear el resultado a 3 decimales, lo cual es adecuado para mostrar resultados claros.
+*/
