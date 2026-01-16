@@ -8,7 +8,8 @@ partial class Program {
         // OrdenInverso();
         // OrdenInversoRev();
         // FormulaBasica();
-        FormulaBasicaRev();
+        // FormulaBasicaRev();
+        PrimeNumber();
         
 
     }   
