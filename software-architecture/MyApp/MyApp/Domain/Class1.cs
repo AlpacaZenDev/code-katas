@@ -30,6 +30,19 @@ namespace Domain
             PhoneNumber = phoneNumber.Trim();
         }
 
+        public void UpdatePersonalInfo(string firstName, string lastName, string email, string phoneNumber)
+        {            
+            ValidateFirstName(firstName);
+            ValidateLastName(lastName);
+            ValidateEmail(email);
+            ValidatePhoneNumber(phoneNumber);
+
+            FirstName = firstName.Trim();
+            LastName=lastName.Trim();
+            Email=email.Trim().ToLower();
+            PhoneNumber=phoneNumber.Trim();
+        }
+
         private void ValidateCode(string code)
         {
             if (string.IsNullOrWhiteSpace(code))
