@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "E12_leyendo_argumentos": {
+      "commandName": "Project",
+      "commandLineArgs": "12 café toffie:args \"Hola Mundo\" true"
+    }
+  }
+}
