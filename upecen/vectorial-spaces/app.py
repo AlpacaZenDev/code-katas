@@ -279,7 +279,14 @@ with tab1:
             title=dict(text="Visualización del Campo de Gravedad y Órbita en R^3", font=dict(color='#ffffff', size=18)),
             paper_bgcolor='#0d0f12',
             plot_bgcolor='#0d0f12',
-            legend=dict(font=dict(color="#ffffff")),
+            legend=dict(
+                x=0.02, y=0.98,
+                xanchor="left", yanchor="top",
+                font=dict(color="#ffffff"),
+                bgcolor="rgba(13, 15, 18, 0.75)",
+                bordercolor="rgba(255, 255, 255, 0.15)",
+                borderwidth=1
+            ),
             scene=dict(
                 xaxis=dict(title="Eje X", range=[-5.5, 5.5], backgroundcolor="#111827", color="#ffffff", gridcolor="#374151"),
                 yaxis=dict(title="Eje Y", range=[-5.5, 5.5], backgroundcolor="#111827", color="#ffffff", gridcolor="#374151"),
@@ -393,7 +400,14 @@ with tab2:
             title=dict(text="Superposición de Campos Vectoriales: F_total = F_A + F_B", font=dict(color='#ffffff', size=18)),
             paper_bgcolor='#0d0f12',
             plot_bgcolor='#0d0f12',
-            legend=dict(font=dict(color="#ffffff")),
+            legend=dict(
+                x=0.02, y=0.98,
+                xanchor="left", yanchor="top",
+                font=dict(color="#ffffff"),
+                bgcolor="rgba(13, 15, 18, 0.75)",
+                bordercolor="rgba(255, 255, 255, 0.15)",
+                borderwidth=1
+            ),
             scene=dict(
                 xaxis=dict(title="Eje X", range=[-5.5, 5.5], backgroundcolor="#111827", color="#ffffff", gridcolor="#374151"),
                 yaxis=dict(title="Eje Y", range=[-5.5, 5.5], backgroundcolor="#111827", color="#ffffff", gridcolor="#374151"),
@@ -513,7 +527,14 @@ with tab3:
             title=dict(text="Suma Vectorial (Método del Paralelogramo) y Escalamiento en R^3", font=dict(color='#ffffff', size=18)),
             paper_bgcolor='#0d0f12',
             plot_bgcolor='#0d0f12',
-            legend=dict(font=dict(color="#ffffff")),
+            legend=dict(
+                x=0.02, y=0.98,
+                xanchor="left", yanchor="top",
+                font=dict(color="#ffffff"),
+                bgcolor="rgba(13, 15, 18, 0.75)",
+                bordercolor="rgba(255, 255, 255, 0.15)",
+                borderwidth=1
+            ),
             scene=dict(
                 xaxis=dict(title="Eje X", range=[-8, 8], backgroundcolor="#111827", color="#ffffff", gridcolor="#374151"),
                 yaxis=dict(title="Eje Y", range=[-8, 8], backgroundcolor="#111827", color="#ffffff", gridcolor="#374151"),
