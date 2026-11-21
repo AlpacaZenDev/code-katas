@@ -1,18 +1,13 @@
-interface State {
-    name: string;
-    capital: string;
-}
+(()=>{
 
-const states: State[] = [
-    {name: 'Alabama',capital: 'Montgomery'},
-    {name: 'Alaska',capital: 'Juneau'},
-    {name: 'Arizona',capital: 'Phoenix'},
-    // ...
-];
+    const user_input = '';
+    const default_value = 'Invitado';
+    const final_name = user_input || default_value;
+    
+    console.log(typeof(user_input));
+    console.log(typeof(default_value));
+    console.log(typeof(final_name));
+    
 
-for (const state of states) {
-    console.log(state.capital);
-}
-
-
+})();
 

@@ -1,12 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const states = [
-    { name: 'Alabama', capital: 'Montgomery' },
-    { name: 'Alaska', capital: 'Juneau' },
-    { name: 'Arizona', capital: 'Phoenix' },
-    // ...
-];
-for (const state of states) {
-    console.log(state.capital);
-}
-//# sourceMappingURL=app.js.map
+(function () {
+    var user_input = '';
+    var default_value = 'Invitado';
+    var final_name = user_input || default_value;
+    console.log(typeof (user_input));
+    console.log(typeof (default_value));
+    console.log(typeof (final_name));
+})();
